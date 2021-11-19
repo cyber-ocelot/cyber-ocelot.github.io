@@ -30,3 +30,33 @@ div {
   background-color: black;
   margin: 6px 0;
 }
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.menu1, .menu2, .menu3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .menu1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .menu2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .menu3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
