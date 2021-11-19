@@ -15,9 +15,18 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
   .parallax {
     background-attachment: scroll;
   }
+}
+
+/* General menu icon */
+.menu {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
 }
