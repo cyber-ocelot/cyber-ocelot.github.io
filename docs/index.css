@@ -8,8 +8,9 @@ body, html {
   /* The image used */
   background-image: url("/images/parallax.jpg");
 
-  /* Full height */
-  height: 100%;
+  /* Set a specific height and width */
+  min-height: cover;
+  min-width: cover;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
