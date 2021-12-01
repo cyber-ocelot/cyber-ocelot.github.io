@@ -3,6 +3,7 @@
 /* Animated menu icon */
 function aniMenu(x) {
   x.classList.toggle("change");
+  document.getElementById('container').className = "containerC";
 }
 
 /*--------------------------------------------------------------------------------------*/
