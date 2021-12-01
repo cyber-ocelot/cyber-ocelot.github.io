@@ -38,13 +38,13 @@ tr, td, th {
 
 /*--------------------------------------------------------------------------------------*/
 
-.container {
+#container {
   display: inline-block;
   cursor: pointer;
 }
 
 /* General settings for the menu icon */
-.menu1, .menu2, .menu3 {
+#menu1, #menu2, #menu3 {
   width: 35px;
   height: 5px;
   background-color: #333;
@@ -53,18 +53,18 @@ tr, td, th {
 }
 
 /* Rotate first bar */
-.change .menu1 {
+.change #menu1 {
   -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
   transform: rotate(-45deg) translate(-9px, 6px) ;
 }
 
 /* Fade out the second bar */
-.change .menu2 {
+.change #menu2 {
   opacity: 0;
 }
 
 /* Rotate last bar */
-.change .menu3 {
+.change #menu3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
   transform: rotate(45deg) translate(-8px, -8px) ;
 }
