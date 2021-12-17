@@ -11,7 +11,7 @@ function aniMenu(x) {
 /* Typewrtier effect */
 var i = 0;
 var txt = 'And I believe ALL girls should pursue careers in the STEM fields.'; /* The text */
-var speed = 50; /* The speed/duration of the effect in milliseconds */
+var speed = 60000; /* The speed/duration of the effect in milliseconds */
 
 function typeWriter() {
   if (i < txt.length) {
