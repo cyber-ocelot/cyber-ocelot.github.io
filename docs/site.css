@@ -1,8 +1,9 @@
 /*--------------------------------------------------------------------------------------*/
 
+/* General settings for the whole page */
 body, html {
   height: 100%;
-  font-family: Lucida Sans Typewriter, Lucida Console, monaco, Bitstream Vera Sans Mono, monospace; ;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 tr, td, th {
@@ -15,6 +16,7 @@ tr, td, th {
 
 /*--------------------------------------------------------------------------------------*/
 
+/* General parallax settings */
 .parallax {
   /* The image used */
   background-image: url("/images/parallax.jpg");
@@ -71,3 +73,8 @@ tr, td, th {
 }
 
 /*--------------------------------------------------------------------------------------*/
+
+/* General settings for the typewriter text */
+.typewriter {
+  font-family: Lucida Sans Typewriter, Lucida Console, monaco, Bitstream Vera Sans Mono, monospace;
+}
