@@ -1,15 +1,30 @@
+/*--------------------------------------------------------------------------------------*/
+
+/* General settings for the whole page */
 body, html {
   height: 100%;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-align: center;
+}
+
+tr, td, th {
+	padding: 15px;
+	margin: 5px;
+	vertical-align: top;
+	border: none;
+	background-color: #FFFFFF; /* White */
 }
 
 /*--------------------------------------------------------------------------------------*/
 
+/* General parallax settings */
 .parallax {
   /* The image used */
   background-image: url("/images/parallax.jpg");
 
-  /* Full height */
-  height: 100%;
+  /* Set a specific height and width */
+  min-height: cover;
+  min-width: cover;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -56,6 +71,13 @@ body, html {
 .change .menu3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
   transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+/* General settings for the typewriter text */
+.typewriter {
+  font-family: Lucida Sans Typewriter, Lucida Console, monaco, Bitstream Vera Sans Mono, monospace;
 }
 
 /*--------------------------------------------------------------------------------------*/
